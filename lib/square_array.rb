@@ -2,8 +2,9 @@ def square_array(numbers)
   new_array = Array.new
   count = 0
   while count <= numbers[count] do
-    numbers[count] *= numbers[count]
-  count += 1
+    square = (numbers[count] ** 2)
+    new_array.push(square)
+    count += 1
 end
-  square_array
+  square
 end
