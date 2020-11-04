@@ -4,4 +4,3 @@ def square_array(array)
     square_array(counter) *= square_array(counter)
     counter += 1
   end
-end
