@@ -6,5 +6,5 @@ def square_array(numbers)
     new_array.push(square)
     count += 1
 end
-  square
+  new_array
 end
