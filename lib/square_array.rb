@@ -1,5 +1,4 @@
 def square_array(numbers)
-  new_array = Array.new
   count = 0
   while count < numbers.length do
     numbers[count] *= numbers[count]
